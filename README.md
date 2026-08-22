@@ -11,4 +11,24 @@ Alumno: Chocobar Jorge
 
 ## Archivo generado:
 
+Bienvenido: Jorge
+FICHA DEL JUEGO
+
+Estudiante: Jorge
+Node js: v24.18.0
+Plataforma del sistema: win32
+
+Titulo: Marvel Tokon
+Genero: pelea
+Estudio: Arc System Works
+Distribuidor: Sony Interactive Entertainment
+Clasificacion T teen
+Plataformas: PlayStation 5, Windows
+¿Es multijugador?: Si
+idioma: japones, ingles
+Año: 2026
+ruta del archivo generado: C:\Users\JORGE\Desktop\Drive Agosto 2026\Curso NODO - Desarrollo Back end con Node.js\x-trabajos practicos\Semana01\tp-01-fundamentos-node\Salida\ficha-videojuego.txt
+PS C:\Users\JORGE\Desktop\Drive Agosto 2026\Curso NODO - Desarrollo Back end con Node.js\x-trabajos practicos\Semana01\tp-01-fundamentos-node> 
+
+
 ## Conceptos:
