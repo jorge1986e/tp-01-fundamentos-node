@@ -1,6 +1,16 @@
+//Orden del event loop
+
 console.log("Comienza el programa");
 
 setTimeout(()=>{
 console.log("Se ejecuta la tarea programada");}, 0)
 
 console.log("Termina el código principal");
+
+/*
+resultado:
+
+Comienza el programa,
+Termina el código principal,
+Se ejecuta la tarea programada (setTimeout).
+*/
