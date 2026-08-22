@@ -51,6 +51,7 @@ fs.mkdirSync(carpetaDeSalida, {recursive: true});
 fs.writeFileSync(rutaFicha, fichaDeJuego, "utf8");
 
 console.log(fichaDeJuego);
+console.log("----------------------------------------------------");
 console.log(`ruta del archivo generado: ${rutaFicha}`);
 
 

@@ -3,7 +3,7 @@ Alumno: Chocobar Jorge
 
 ## Descripción:
 
-Este trabajo practico pedia crear una aplicacion principal que pedia crear una ficha de un video juego, para eso ise una objeto con los datos de un juego que eligi "Marvel Tokon", luego mostre un mensaje de bienvenida de dos formas una predeterminada como Estidiante y otra por consola donde puedo elegir el nombre, tambien mostre la version de node y windows con process, use join para convertir los arreglos a textos ejemplo: plataformas, luego ise la ficha del juego interpolando las constantes, luego use path.join para crear los nombres de las salidas y fs para crear carpetas y escribir el archivo de salida.
+Este trabajo practico pedia crear una aplicacion principal que pedia crear una ficha de un video juego, para eso ise una objeto con los datos de un juego que eligi "Marvel Tokon", luego mostre un mensaje de bienvenida de dos formas una predeterminada como Estidiante y otra por consola donde puedo elegir el nombre, tambien mostre la version de node y windows con process, use join para convertir los arreglos a textos ejemplo: plataformas, luego ise la ficha del juego interpolando las constantes, luego use path.join para crear los nombres de las salidas y fs para crear carpetas y escribir el archivo de salida. Resultado: salida/ficha-videojuego.txt.
 
 
 ## Cómo ejecutar:
@@ -13,6 +13,8 @@ Este trabajo practico pedia crear una aplicacion principal que pedia crear una f
 -Para ejecutar la aplicacion orde-event-loop.js abro la terminal con las teclas "Ctrl + ñ" en el directorio raiz del proyecto: tp-01-fundamentos-node y utilizo el entorno de ejecucion de node.js para interpretar el punto de entrada, ejecutando el comando node orden-event-loop.js
 
 ## Archivo generado:
+
+ficha-videojuego.txt:
 
 Bienvenido: Jorge
 FICHA DEL JUEGO
@@ -30,8 +32,22 @@ Plataformas: PlayStation 5, Windows
 ¿Es multijugador?: Si
 idioma: japones, ingles
 Año: 2026
+
+-------------------------------------------------
+Por consola:
 ruta del archivo generado: C:\Users\JORGE\Desktop\Drive Agosto 2026\Curso NODO - Desarrollo Back end con Node.js\x-trabajos practicos\Semana01\tp-01-fundamentos-node\Salida\ficha-videojuego.txt
-PS C:\Users\JORGE\Desktop\Drive Agosto 2026\Curso NODO - Desarrollo Back end con Node.js\x-trabajos practicos\Semana01\tp-01-fundamentos-node> 
 
 
-## Conceptos:
+# Conceptos:
+
+## 1. ¿Qué diferencia existe entre JavaScript, V8 y el runtime de Node.js?
+
+
+
+## 2. ¿Por qué el callback de setTimeout(..., 0) se ejecuta después del código principal?
+
+El callback de setTimeout se ejecuta después del código principal porque el hilo de ejecucion esta ocupado y el callback espera que se libere para enviar la orden y recien poder imprimir.
+
+## 3. ¿Cuál es la diferencia general entre I/O bloqueante y no bloqueante?
+
+## 4. ¿Qué responsabilidades cumplen node:path y node:fs en index.js ?
