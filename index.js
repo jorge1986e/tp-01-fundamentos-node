@@ -10,7 +10,7 @@ const juego = {
     distribuidor: "Sony Interactive Entertainment",
     clasificacion: "T teen",
     plataformas: ["PlayStation 5", "Windows"],
-    multijugador: "true",
+    multijugador: true,
     idioma: ["japones", "ingles"],
     anio: 2026,
 }
